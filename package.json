@@ -19,8 +19,7 @@
     "@mui/icons-material": "^5.15.12",
     "@stripe/stripe-js": "^1.40.0",
     "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-
+    "@emotion/styled": "^11.11.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
