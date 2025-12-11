@@ -3,5 +3,16 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   base: "/film-simulator-webgl/",
-  assetsInclude: ["**/*.cube"],   // <-- THIS is the important line
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes("luts") || id.includes("assets")) {
+            return "assets";
+          }
+        },
+      },
+    },
+  },
+  assetsInclude: ["**/*.cube"],
 });
