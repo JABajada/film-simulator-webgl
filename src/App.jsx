@@ -6,9 +6,9 @@ import Sliders from "./components/Sliders";
 import PremiumModal from "./components/PremiumModal";
 import LUTPlane from "./LUTPlane";
 
-import classicChromeLUT from "./luts/classic_chrome.cube";
-import velviaLUT from "./luts/velvia.cube";
-import portraLUT from "./luts/portra.cube";
+import classicChromeLUT from "./luts/classic_chrome.cube?raw";
+import velviaLUT from "./luts/velvia.cube?raw";
+import portraLUT from "./luts/portra.cube?raw";
 
 const filmPresets = {
   classic_chrome: { name: "Classic Chrome", lut: classicChromeLUT },
